@@ -170,8 +170,7 @@ app.get('/authorize', async (req, res) => {
   })
 
   console.log("done")
-  // await browser.close();
-  //  })()
+  await browser.close();
 })
 
 
