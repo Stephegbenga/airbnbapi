@@ -3,9 +3,6 @@ const puppeteerExtra = require('puppeteer-extra');
 const stealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const express = require('express');
-const {
-  urlToHttpOptions
-} = require('url');
 const app = express()
 const dotenv = require('dotenv');
 dotenv.config();
